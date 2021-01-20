@@ -54,10 +54,6 @@ const Layout = ({children, title = "Word Ranks"}) => {
         <main className={styles.main}>
        {children}
         </main>
-  
-        <footer className={styles.footer}>
-         <a href="https://zahidkarakaya.com/" target="_blank">Zahid Karakaya</a> Tüm hakları saklıdır
-        </footer>
       </div>
     )
 }
